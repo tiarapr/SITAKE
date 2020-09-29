@@ -1,0 +1,57 @@
+body{
+	background: url(../../siswa/img/bg.png);
+	height: auto;
+}
+
+.sv{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#container{
+	margin: 0 auto;
+	padding: 2em 1em;
+}
+
+.landing{
+	margin-bottom: 20px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.text{
+	margin-top: 40px;
+}
+
+.landing h1{
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+.landing p{
+	font-size: 1.2em;
+	font-weight: 600;
+	max-width: 500px;
+	line-height: 1.8em;
+	margin: 3em auto;
+}
+
+.landing p:before{
+	content: "";
+	border: 2px solid #4e73df;
+	width: 100px;
+	display: block;
+	margin: 1em auto;
+}
+
+.profil-page{
+	margin-bottom: 30px;
+	margin-top: 90px;
+}
+
+footer{
+	background-image: linear-gradient(-90deg,#4e73df,#42AFEA);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}

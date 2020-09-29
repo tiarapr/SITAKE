@@ -1,0 +1,78 @@
+@font-face{
+  font-family: Roboto;
+  src: url(../font/Roboto/Roboto-Light.ttf);
+}
+
+body{
+	background-color: #4e73df;
+	font-family: Roboto;
+}
+
+/*Card Background Putih*/
+.bg-putih{
+	display: block;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.judul{
+	padding: 0px 0px 30px;
+	text-align: center;
+}
+
+.fc{
+	border-radius: 25px;
+	padding: 23px;
+}
+
+.btn-user{
+	background-color: #4e73df;
+	color: #ffffff;
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+#container{
+	margin: 0 auto;
+	padding: 2em 1em;
+}
+/*Akhir Card Background Putih*/
+
+footer{
+	text-align: center;
+	margin: 30px;
+}
+
+/*RESPONSIVE*/  
+@media screen and (max-width:960px){
+  .maincontent{
+    width: 100%
+  }
+}
+
+@media screen and (max-width:680px){
+
+  .maincontent{
+    width: auto;
+    float: none;
+  }
+}
+
+@media screen and (max-width:480px){
+
+  .maincontent{
+    width: auto;
+  }
+}
+
+@media screen and (max-width:380px){
+
+  .maincontent{
+    width: auto;
+  }
+}

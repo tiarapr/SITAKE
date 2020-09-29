@@ -1,0 +1,92 @@
+@font-face{
+  font-family: Roboto;
+  src: url(../font/Roboto/Roboto-Light.ttf);
+}
+
+body{
+	background-color: #4e73df;
+	font-family: Roboto;
+}
+
+#container{
+	margin: 0 auto;
+	padding: 2em 1em;
+}
+
+/*Selamat Datang*/
+.icon-sd{
+	width: 40px;
+	height: 40px;
+}
+
+h1{
+	text-align: center;
+	margin: 100px 0px 20px; //TRLB
+}
+
+.sitasi{
+	font-size: 20px;
+	color: #4e73df;
+	text-align: center;
+}
+/*Akhir selamat datang*/
+
+.bg-putih{
+	padding-bottom: 130px;
+	margin: 30px 0px 0px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+/*Menu Login*/
+.card{
+	padding: 0px;
+	margin: 20px 0px 0px;
+}
+
+.card-title{
+	text-align: center;
+}
+
+.icon-login{
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Akhir Menu Login*/
+
+footer{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/*RESPONSIVE*/  
+@media screen and (max-width:960px){
+  .maincontent{
+    width: 100%
+  }
+}
+
+@media screen and (max-width:680px){
+
+  .maincontent{
+    width: auto;
+    float: none;
+  }
+}
+
+@media screen and (max-width:480px){
+
+  .maincontent{
+    width: auto;
+  }
+}
+
+@media screen and (max-width:380px){
+
+  .maincontent{
+    width: auto;
+  }
+}
